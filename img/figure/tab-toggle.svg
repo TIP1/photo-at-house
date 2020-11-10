@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 291 80" style="enable-background:new 0 0 291 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{mask:url(#path-1-inside-1_1_);fill:#E9E9FF;}
+</style>
+<g>
+	<path class="st0" d="M256.4,29c-2.4-11.1-12.1-19-23.5-19H59.1C47.8,10,38,17.9,35.6,29l-5.6,26C27.7,66.1,17.9,74,6.6,74H-301
+		c-13.3,0-24,10.7-24,24v60c0,13.3,10.7,24,24,24h1872c13.3,0,24-10.7,24-24V98c0-13.3-10.8-24-24-24H285.4
+		c-11.3,0-21.1-7.9-23.5-19L256.4,29z"/>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-326" y="9" width="1922" height="174">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="-326" y="9" width="1922" height="174" id="path-1-inside-1_1_">
+		<path class="st1" d="M256.4,29c-2.4-11.1-12.1-19-23.5-19H59.1C47.8,10,38,17.9,35.6,29l-5.6,26C27.7,66.1,17.9,74,6.6,74H-301
+			c-13.3,0-24,10.7-24,24v60c0,13.3,10.7,24,24,24h1872c13.3,0,24-10.7,24-24V98c0-13.3-10.8-24-24-24H285.4
+			c-11.3,0-21.1-7.9-23.5-19L256.4,29z"/>
+	</mask>
+	<path class="st2" d="M261.9,55l-1,0.2L261.9,55z M30.1,55l1,0.2L30.1,55z M256.4,29l1-0.2L256.4,29z M35.6,29l-1-0.2L35.6,29z
+		 M59.1,11h173.8V9H59.1V11z M31,55.2l5.6-26l-2-0.4l-5.6,26L31,55.2z M-301,75H6.6v-2H-301V75z M-324,158V98h-2v60H-324z M1571,181
+		H-301v2h1872V181z M1594,98v60h2V98H1594z M285.4,75H1571v-2H285.4V75z M255.4,29.2l5.6,26l2-0.4l-5.6-26L255.4,29.2z M285.4,73
+		c-10.9,0-20.2-7.6-22.5-18.2l-2,0.4c2.5,11.5,12.7,19.8,24.4,19.8V73z M1596,98c0-13.8-11.2-25-25-25v2c12.7,0,23,10.3,23,23H1596z
+		 M1571,183c13.8,0,25-11.2,25-25h-2c0,12.7-10.3,23-23,23V183z M-326,158c0,13.8,11.2,25,25,25v-2c-12.7,0-23-10.3-23-23H-326z
+		 M-301,73c-13.8,0-25,11.2-25,25h2c0-12.7,10.3-23,23-23V73z M29.1,54.8C26.8,65.4,17.4,73,6.6,73v2c11.8,0,22-8.2,24.4-19.8
+		L29.1,54.8z M232.9,11c10.9,0,20.2,7.6,22.5,18.2l2-0.4C254.9,17.2,244.7,9,232.9,9V11z M59.1,9c-11.8,0-22,8.2-24.4,19.8l2,0.4
+		C38.9,18.6,48.2,11,59.1,11V9z"/>
+</g>
+</svg>

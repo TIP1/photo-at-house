@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="«Фото в дом»">
+    <title>Фото в дом</title>
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="./fav.ico">-->
+    <link rel="preload" href="fonts/Golos/Golos-Regular.ttf" as="font" type="font/ttf" crossorigin="">
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/libs/swiper.min.css">
+    <link rel="stylesheet" href="css/libs/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+  </head>
+  <body>
+    <header class="header">
+        <div class="header__top">
+          <nav class="header__main-nav main-nav container">
+            <ul class="main-nav__list main-nav__list-site">
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="payment-delivery.html">
+                  Оплата и доставка
+                </a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="faq.html">
+                  Вопросы-ответы
+                </a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="collaboration.html">
+                  Сотрудничество
+                </a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="about.html">
+                  О компании
+                </a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="articles.html">
+                  Статьи
+                </a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="reviews.html">
+                  Отзывы
+                </a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="contacts.html">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+            <ul class="main-nav__list main-nav__list-user">
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="favourites.html">
+                  <svg class="main-nav__icon icon icon--small" width="20" height="20" aria-hidden="true">
+                    <use xlink:href="img/sprite.svg#header-01"></use>
+                  </svg>
+                  Избранное
+                </a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="account.html">
+                  <svg class="main-nav__icon icon icon--small" width="20" height="20" aria-hidden="true">
+                    <use xlink:href="img/sprite.svg#header-02"></use>
+                  </svg>
+                  Личный кабинет
+                </a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="basket.html">
+                  <svg class="main-nav__icon icon" width="20" height="20" aria-hidden="true">
+                    <use xlink:href="img/sprite.svg#header-03"></use>
+                  </svg>
+                  Корзина
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__middle container">
+          <figure class="header__logo logo">
+            <a class="logo__img-wrap" href="index.html">
+              <img class="logo__img" src="img/logo/logo.svg" alt="Логотип сайта «Фото в дом»" width="260" height="52">
+            </a>
+          </figure>
+  
+          <ul class="header__btn-big-contacts-wrap">
+            <li class="header__btn-big-contacts btn-big-contacts">
+              <span class="btn-big-contacts__icon-circle icon-circle">
+                <svg class="btn-big-contacts__icon icon" width="24" height="24" aria-hidden="true">
+                  <use xlink:href="img/sprite.svg#header-04"></use>
+                </svg>
+              </span>
+              <p class="btn-big-contacts__text-wrap">
+                <a class="btn-big-contacts__link" href="tel:+78007071642">
+                  8 (800) 707-16-42
+                </a>
+                <span class="btn-big-contacts__desc">
+                  Бесплатно по России
+                </span>
+              </p>
+            </li>
+  
+            <li class="header__btn-big-contacts btn-big-contacts">
+              <span class="btn-big-contacts__icon-circle icon-circle">
+                <svg class="btn-big-contacts__icon icon" width="24" height="24" aria-hidden="true">
+                  <use xlink:href="img/sprite.svg#header-05"></use>
+                </svg>
+              </span>
+              <p class="btn-big-contacts__text-wrap">
+                <a class="btn-big-contacts__link" href="tel:+74950031642">
+                  8 (495) 003-16-42
+                </a>
+                <span class="btn-big-contacts__desc">
+                  Москва
+                  <button class="btn-region js-modal-region">
+                    Сменить регион
+                  </button>
+                </span>
+              </p>
+            </li>
+          </ul>
+  
+          <button class="header__btn-callback btn-callback">
+            <span class="btn-callback__icon-circle icon-circle icon-circle--small">
+              <svg class="btn-callback__icon icon" width="24" height="24" aria-hidden="true">
+                <use xlink:href="img/sprite.svg#header-06"></use>
+              </svg>
+            </span>
+            <span class="btn-callback__desc">
+              Заказать обратный звонок
+            </span>
+          </button>
+        </div>
+        <div class="header__bottom">
+          <ul class="header__feature-list container">
+            <li class="header__feature-item">
+              <svg class="header__feature-icon icon" width="24" height="24" aria-hidden="true">
+                <use xlink:href="img/sprite.svg#header-07"></use>
+              </svg>
+              <p class="header__feature-desc">
+                Оплата после получения
+              </p>
+            </li>
+            <li class="header__feature-item">
+              <svg class="header__feature-icon icon" width="24" height="24" aria-hidden="true">
+                <use xlink:href="img/sprite.svg#header-08"></use>
+              </svg>
+              <p class="header__feature-desc">
+                Изготовление за 1 день
+              </p>
+            </li>
+            <li class="header__feature-item">
+              <svg class="header__feature-icon icon" width="24" height="24" aria-hidden="true">
+                <use xlink:href="img/sprite.svg#header-09"></use>
+              </svg>
+              <p class="header__feature-desc">
+                Латексная печать
+              </p>
+            </li>
+            <li class="header__feature-item">
+              <svg class="header__feature-icon icon" width="24" height="24" aria-hidden="true">
+                <use xlink:href="img/sprite.svg#header-10"></use>
+              </svg>
+              <p class="header__feature-desc">
+                Стоимость — от 190 ₽ за м<sup>2</sup>
+              </p>
+            </li>
+            <li class="header__feature-item">
+              <svg class="header__feature-icon icon" width="24" height="24" aria-hidden="true">
+                <use xlink:href="img/sprite.svg#header-11"></use>
+              </svg>
+              <p class="header__feature-desc">
+                Гарантия низкой цены
+              </p>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main class="main">
+        <section class="tab-toggle">
+            <div class="tab-toggle__decor-img-wrap">
+              <img class="tab-toggle__decor-img tab-toggle__decor-img--1 active" src="img/figure/Union-4.png" alt="Декоративное изображение" aria-hidden="true">
+              <img class="tab-toggle__decor-img tab-toggle__decor-img--2" src="img/figure/Union-3.png" alt="Декоративное изображение" aria-hidden="true">
+              <img class="tab-toggle__decor-img tab-toggle__decor-img--3" src="img/figure/Union-2.png" alt="Декоративное изображение" aria-hidden="true">
+              <img class="tab-toggle__decor-img tab-toggle__decor-img--4" src="img/figure/Union-1.png" alt="Декоративное изображение" aria-hidden="true">
+              <img class="tab-toggle__decor-img tab-toggle__decor-img--5" src="img/figure/Union.png" alt="Декоративное изображение" aria-hidden="true">
+            </div>
+    
+            <ul class="tab-toggle__list container">
+              <li class="tab-toggle__item active">
+                <a class="tab-toggle__btn" href="#tab1">
+                  <img class="tab-toggle__icon icon icon--big" src="img/icons/tabs/tabs-01.svg" width="28" height="28" aria-hidden="true" alt="Фотообои">
+                  <p class="tab-toggle__title h3">
+                    Фотообои
+                  </p>
+                </a>
+              </li>
+              <li class="tab-toggle__item">
+                <a class="tab-toggle__btn" href="#tab2">
+                  <img class="tab-toggle__icon icon icon--big" src="img/icons/tabs/tabs-02.svg" width="28" height="28" aria-hidden="true" alt="Фрески">
+                  <p class="tab-toggle__title h3">
+                    Фрески
+                  </p>
+                </a>
+              </li>
+              <li class="tab-toggle__item">
+                <a class="tab-toggle__btn" href="#tab3">
+                  <img class="tab-toggle__icon icon icon--big" src="img/icons/tabs/tabs-03.svg" width="28" height="28" aria-hidden="true" alt="Фотополы">
+                  <p class="tab-toggle__title h3">
+                    Фотополы
+                  </p>
+                </a>
+              </li>
+              <li class="tab-toggle__item">
+                <a class="tab-toggle__btn" href="#tab4">
+                  <img class="tab-toggle__icon icon icon--big" src="img/icons/tabs/tabs-04.svg" width="28" height="28" aria-hidden="true" alt="Картины">
+                  <p class="tab-toggle__title h3">
+                    Картины
+                  </p>
+                </a>
+              </li>
+              <li class="tab-toggle__item">
+                <a class="tab-toggle__btn" href="#tab5">
+                  <img class="tab-toggle__icon icon icon--big" src="img/icons/tabs/tabs-05.svg" width="28" height="28" aria-hidden="true" alt="Скидки">
+                  <p class="tab-toggle__title tab-toggle__title--orange h3">
+                    Скидки
+                  </p>
+                </a>
+              </li>
+            </ul>
+    
+            <div class="tab-toggle__suggestions suggestions container">
+              <ul class="suggestions__list active" id="tab1">
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Галерея
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Своё изображение
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Готовые обои
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Материалы и цены
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Как поклеить
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Примеры
+                  </a>
+                </li>
+              </ul>
+              <ul class="suggestions__list" id="tab2">
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Текс
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Своё
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    обои
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Материалы
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Как
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    никак
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Материалы
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Как
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    никак
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Материалы
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    Как
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    никак
+                  </a>
+                </li>
+              </ul>
+              <ul class="suggestions__list" id="tab3">
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    фотоны
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    глюоны
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    протоны
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    электоны
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    постоянная планка
+                  </a>
+                </li>
+              </ul>
+              <ul class="suggestions__list" id="tab4">
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    проснитесь, мистер Фримен!
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    хедкраб голоден
+                  </a>
+                </li>
+              </ul>
+              <ul class="suggestions__list" id="tab5">
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    hellow
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    world
+                  </a>
+                </li>
+                <li class="suggestions__item p-m">
+                  <a class="suggestions__link" href="#">
+                    !
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+    
+          <section class="search p-m container">
+            <div class="search__two-columns-wrap">
+              <form class="search__form" action=".php" method="POST">
+                <label class="search__label">
+                  <input class="search__input" type="search" name="SEARCH-CATALOG" placeholder="Поиск по каталогу фотообоев" required="">
+                  <svg class="search__icon icon" width="24" height="24" aria-hidden="true">
+                    <use xlink:href="img/sprite.svg#form-01"></use>
+                  </svg>
+                </label>
+              </form>
+              <form class="search__form" action=".php" method="POST">
+                <label class="search__label">
+                  <input class="search__input search__input--shutterstock" type="search" name="SEARCH-SHUTTERSTOCK" required="" placeholder="Поиск по фотобанку">
+                  <svg class="search__icon icon" width="24" height="24" aria-hidden="true">
+                    <use xlink:href="img/sprite.svg#form-01"></use>
+                  </svg>
+                  <img class="search__icon-shutterstock icon-shutterstock" src="img/logo/logo-shutterstock.png" alt="Логотип Shutterstock" width="85" height="18">
+                  <!-- <img class="search__icon-shutterstock icon-shutterstock" src="img/logo/logo-shutterstock2.png" alt="Логотип Shutterstock" width="241" height="18"> -->
+                </label>
+              </form>
+            </div>
+          </section>
+          <div class="two-columns container">
+            <aside class="two-columns__aside-column categories">
+              <ul class="categories__list-block">
+                <li class="categories__item-block">
+                  <p class="categories__item-title h4">
+                    По категориям
+                  </p>
+                  <ul class="categories__list p-m">
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-01.svg" width="24" height="24" aria-hidden="true" alt="ТОП 100">
+                        <p class="categories__desc">
+                          ТОП 100
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-02.svg" width="24" height="24" aria-hidden="true" alt="Новинки">
+                        <p class="categories__desc">
+                          Новинки
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-03.svg" width="24" height="24" aria-hidden="true" alt="3D фото">
+                        <p class="categories__desc">
+                          3D фото
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-04.svg" width="24" height="24" aria-hidden="true" alt="Дизайнерские">
+                        <p class="categories__desc">
+                          Дизайнерские
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-05.svg" width="24" height="24" aria-hidden="true" alt="Карты">
+                        <p class="categories__desc">
+                          Карты
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-06.svg" width="24" height="24" aria-hidden="true" alt="Архитектура">
+                        <p class="categories__desc">
+                          Архитектура
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-07.svg" width="24" height="24" aria-hidden="true" alt="Города">
+                        <p class="categories__desc">
+                          Города
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-08.svg" width="24" height="24" aria-hidden="true" alt="Страны мира">
+                        <p class="categories__desc">
+                          Страны мира
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-09.svg" width="24" height="24" aria-hidden="true" alt="Природа">
+                        <p class="categories__desc">
+                          Природа
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-10.svg" width="24" height="24" aria-hidden="true" alt="Моря и озера">
+                        <p class="categories__desc">
+                          Моря и озера
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-11.svg" width="24" height="24" aria-hidden="true" alt="Реки и водопады">
+                        <p class="categories__desc">
+                          Реки и водопады
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-12.svg" width="24" height="24" aria-hidden="true" alt="Цветы и растения">
+                        <p class="categories__desc">
+                          Цветы и растения
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-13.svg" width="24" height="24" aria-hidden="true" alt="Закаты и рассветы">
+                        <p class="categories__desc">
+                          Закаты и рассветы
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-14.svg" width="24" height="24" aria-hidden="true" alt="Авто-мото">
+                        <p class="categories__desc">
+                          Авто-мото
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-15.svg" width="24" height="24" aria-hidden="true" alt="Дороги">
+                        <p class="categories__desc">
+                          Дороги
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-16.svg" width="24" height="24" aria-hidden="true" alt="Спорт">
+                        <p class="categories__desc">
+                          Спорт
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-17.svg" width="24" height="24" aria-hidden="true" alt="Животные">
+                        <p class="categories__desc">
+                          Животные
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-18.svg" width="24" height="24" aria-hidden="true" alt="Подводный мир">
+                        <p class="categories__desc">
+                          Подводный мир
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-19.svg" width="24" height="24" aria-hidden="true" alt="Игры и фильмы">
+                        <p class="categories__desc">
+                          Игры и фильмы
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/categories/categories-20.svg" width="24" height="24" aria-hidden="true" alt="Текстуры и фоны">
+                        <p class="categories__desc">
+                          Текстуры и фоны
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+    
+                <li class="categories__item-block">
+                  <p class="categories__item-title h4">
+                    По помещениям
+                  </p>
+                  <ul class="categories__list p-m">
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-01.svg" width="24" height="24" aria-hidden="true" alt="На кухню">
+                        <p class="categories__desc">
+                          На кухню
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-02.svg" width="24" height="24" aria-hidden="true" alt="В спальню">
+                        <p class="categories__desc">
+                          В спальню
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-03.svg" width="24" height="24" aria-hidden="true" alt="В детскую комнату">
+                        <p class="categories__desc">
+                          В детскую комнату
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-04.svg" width="24" height="24" aria-hidden="true" alt="В гостиную">
+                        <p class="categories__desc">
+                          В гостиную
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-05.svg" width="24" height="24" aria-hidden="true" alt="В офис">
+                        <p class="categories__desc">
+                          В офис
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-06.svg" width="24" height="24" aria-hidden="true" alt="В прихожую">
+                        <p class="categories__desc">
+                          В прихожую
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-07.svg" width="24" height="24" aria-hidden="true" alt="В ванную">
+                        <p class="categories__desc">
+                          В ванную
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-08.svg" width="24" height="24" aria-hidden="true" alt="На потолок">
+                        <p class="categories__desc">
+                          На потолок
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-09.svg" width="24" height="24" aria-hidden="true" alt="3D полы">
+                        <p class="categories__desc">
+                          3D полы
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-10.svg" width="24" height="24" aria-hidden="true" alt="На дверь">
+                        <p class="categories__desc">
+                          На дверь
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-11.svg" width="24" height="24" aria-hidden="true" alt="На шкаф-купе">
+                        <p class="categories__desc">
+                          На шкаф-купе
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-12.svg" width="24" height="24" aria-hidden="true" alt="В кафе и столовую">
+                        <p class="categories__desc">
+                          В кафе и столовую
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/places/places-13.svg" width="24" height="24" aria-hidden="true" alt="В салон красоты">
+                        <p class="categories__desc">
+                          В салон красоты
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+    
+                <li class="categories__item-block">
+                  <p class="categories__item-title h4">
+                    По цвету
+                  </p>
+                  <ul class="categories__list p-m">
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <svg class="categories__icon icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#colors-01-white"></use>
+                        </svg>
+                        <p class="categories__desc">
+                          Белый
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <svg class="categories__icon icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#colors-02-black"></use>
+                        </svg>
+                        <p class="categories__desc">
+                          Чёрный
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <svg class="categories__icon icon" width="24" height="24" aria-hidden="false">
+                          <use xlink:href="./img/sprite.svg#colors-03-red"></use>
+                        </svg>
+                        <p class="categories__desc">
+                          Красный
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <svg class="categories__icon icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#colors-04-orange"></use>
+                        </svg>
+                        <p class="categories__desc">
+                          Оранжевый
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <svg class="categories__icon icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#colors-05-yellow"></use>
+                        </svg>
+                        <p class="categories__desc">
+                          Жёлтый
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <svg class="categories__icon icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#colors-06-green"></use>
+                        </svg>
+                        <p class="categories__desc">
+                          Зелёный
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <svg class="categories__icon icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#colors-07-blue"></use>
+                        </svg>
+                        <p class="categories__desc">
+                          Голубой
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <svg class="categories__icon icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#colors-08-blue-dark"></use>
+                        </svg>
+                        <p class="categories__desc">
+                          Синий
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <svg class="categories__icon icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#colors-09-violet"></use>
+                        </svg>
+                        <p class="categories__desc">
+                          Фиолетовый
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+    
+                    <li class="categories__item">
+                      <a class="categories__link" href="#">
+                        <img class="categories__icon icon" src="img/icons/colors/colors-10-multi.png" width="24" height="24" aria-hidden="true" alt="Мультицвет">
+                        <p class="categories__desc">
+                          Мультицвет
+                        </p>
+                        <svg class="categories__icon-go icon" width="24" height="24" aria-hidden="true">
+                          <use xlink:href="img/sprite.svg#arrow-01"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </aside>
+            <div class="two-columns__content-column">
+                <div class="two-columns__block breadcrumb">
+                    <section class="two-columns__breadcrumb breadcrumb">
+                        <ol class="breadcrumb__list">
+                            <li class="breadcrumb__item">
+                                <a href="#" class="breadcrumb__link">
+                                    Главная 
+                                </a>
+                            </li>
+                            <li class="breadcrumb__item">
+                                <a href="#" class="breadcrumb__link">
+                                    Каталог изображений для фотообоев
+                                </a>
+                            </li>
+                            <li class="breadcrumb__item">
+                                <a href="#" class="breadcrumb__link">
+                                    Топ изображений
+                                </a>
+                            </li>
+                        </ol>
+                    </section>
+                </div>
+                <div class="two-columns__block  title">
+                    <section class="two-columns__title title">
+                        <p class="title__main">
+                            ФОТООБОИ ТОП ИЗОБРАЖЕНИЙ
+                        </p>
+                        <p class="title__desc">
+                            Грамотно подобранные фотообои Топ изображений способны преобразовывать пространство: обыгрывать
+                            стилистические направления и органично вписываться в любой интерьер. Это успели высоко оценить дизайнеры 
+                            и обычные граждане, которые предпочитают оригинально оформлять помещение. В каталоге нашего 
+                            интернет-магазина представлен широкий ассортимент тематических изображений фотообоев Топ изображений.
+                        </p>
+                    </section>
+                </div>
+                <div class="two-columns__block">
+                    <section class="two-columns__wallpapers-list wallpapers-list">
+                        <div class="wallpapers-list__catigories">
+                            <a href="#" class="wallpapers-list__catigories__button active">
+                                Все
+                            </a>
+                            <a href="#" class="wallpapers-list__catigories__button">
+                                С текстурой
+                            </a>
+                            <a href="#" class="wallpapers-list__catigories__button">
+                                Гладкие
+                            </a>
+                            <a href="#" class="wallpapers-list__catigories__button">
+                                Бесшовные (одним полотном)
+                            </a>
+                        </div>
+                    </section>
+                    <div class="two-columns__page page">
+                        <div class="page__row">
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>14992</span></p>
+                                        <img src="../img/icons/fill.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Нежность и ветер»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price prev">от 190 ₽</p>
+                                        <p class="page__item__price new">от 120 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-1.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>13557</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Ночные блики»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-2.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>17787</span></p>
+                                        <img src="../img/icons/fill.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Жаркий летний полдень»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page__row">
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-3.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>15372</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Древняя артихеткура»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-4.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>14038</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «женский портрет»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-5.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>18875</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Абстрактная геометрия»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page__row">
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-6.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>16290</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Статуя свободы»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price prev">от 190 ₽</p>
+                                        <p class="page__item__price new">от 120 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-7.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>11810</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Изумрудное растение»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-8.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>12968</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Утренние горы в тумане»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page__row">
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>14992</span></p>
+                                        <img src="../img/icons/fill.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Нежность и ветер»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price prev">от 190 ₽</p>
+                                        <p class="page__item__price new">от 120 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-1.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>13557</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Ночные блики»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-2.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>17787</span></p>
+                                        <img src="../img/icons/fill.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Жаркий летний полдень»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page__row">
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-3.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>15372</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Древняя артихеткура»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-4.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>14038</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «женский портрет»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-5.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>18875</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Абстрактная геометрия»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page__row">
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-6.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>16290</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Статуя свободы»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price prev">от 190 ₽</p>
+                                        <p class="page__item__price new">от 120 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-7.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>11810</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Изумрудное растение»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                            <div class="page__item">
+                                <img src="./img/gallery/card4/image-8.png" alt="image-in-catalog">
+                                <div class="page__item__text-wrap">
+                                    <div class="page__item__text__code">
+                                        <p class="column__recommendations__item-code">Артикул: <span>12968</span></p>
+                                        <img src="../img/icons/empty.png" alt="icon" class="favorite">
+                                    </div>
+                                    <p class="page__item__text__title">Фотообои «Утренние горы в тумане»</p>
+                                    <div class="page__item__price-wrap">
+                                        <p class="page__item__price">от 190 ₽/м&sup2;</p>
+                                    </div>
+                                    <div class="page__item__btns">
+                                        <a href="#" class="page__item__btn-1">Быстрый заказ</a>
+                                        <a href="#" class="page__item__btn-2">В корзину</a>
+                                    </div>
+                                    <p class="page__item__counter">Заказали печать 86 раз(а)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two-columns__subpagination subpagination">
+                        <p class="subpagination__counter">товаров в категории - 15481</p>
+                        <div class="subpagionation__pagination">
+                            <div class="wallpapers-list__catigories">
+                                <a href="#" class="wallpapers-list__catigories__button active">
+                                    1
+                                </a>
+                                <a href="#" class="wallpapers-list__catigories__button">
+                                    2
+                                </a>
+                                <a href="#" class="wallpapers-list__catigories__button">
+                                    3
+                                </a>
+                                <a href="#" class="wallpapers-list__catigories__button">
+                                    4
+                                </a>
+                                <a href="#" class="wallpapers-list__catigories__button">
+                                    5
+                                </a>
+                                <a href="#" class="wallpapers-list__catigories__button next">
+                                    Следующая →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__columns-wrap footer__top container">
+          <div class="footer__columns-left">
+            <figure class="footer__logo logo">
+              <a class="logo__img-wrap" href="index.html">
+                <img class="logo__img" src="img/logo/logo.svg" alt="Логотип сайта «Фото в дом»" width="260" height="52">
+              </a>
+            </figure>
+  
+            <div class="footer__social-links social-links">
+              <ul class="social-links__list">
+                <li class="social-links__item">
+                  <a class="social-links__link" href="#" target="_blank" title="Наш Вконтакте">
+                    <span class="visually-hidden">Наш Вконтакте</span>
+                    <svg class="social-links__icon icon" width="24" height="24" aria-hidden="true">
+                      <use xlink:href="img/sprite.svg#footer-01"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-links__item">
+                  <a class="social-links__link" href="#" target="_blank" title="Наш Инстаграм">
+                    <span class="visually-hidden"></span>
+                    <svg class="social-links__icon icon" width="24" height="24" aria-hidden="true">
+                      <use xlink:href="img/sprite.svg#footer-02">Наш Инстаграм</use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-links__item">
+                  <a class="social-links__link" href="#" target="_blank" title="Наш Фейсбук">
+                    <span class="visually-hidden">Наш Фейсбук</span>
+                    <svg class="social-links__icon icon" width="24" height="24" aria-hidden="true">
+                      <use xlink:href="img/sprite.svg#footer-03"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-links__item">
+                  <a class="social-links__link" href="#" target="_blank" title="Наш канал на YouTube">
+                    <span class="visually-hidden">Наш канал на YouTube</span>
+                    <svg class="social-links__icon icon" width="24" height="24" aria-hidden="true">
+                      <use xlink:href="img/sprite.svg#footer-04"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-links__item">
+                  <a class="social-links__link" href="#" target="_blank" title="Наш Твиттер">
+                    <span class="visually-hidden">Наш Твиттер</span>
+                    <svg class="social-links__icon icon" width="24" height="24" aria-hidden="true">
+                      <use xlink:href="img/sprite.svg#footer-05"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__columns-right p-m">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Фотообои
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Фрески
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Фотополы
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Картины
+                </a>
+              </li>
+            </ul>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="payment-delivery.html">
+                  Оплата и доставка
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="faq.html">
+                  Вопросы-ответы
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="collaboration.html">
+                  Сотрудничество
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="about.html">
+                  О компании
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="reviews.html">
+                  Отзывы
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="contacts.html">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="footer__decor-line"></div>
+  
+        <div class="footer__columns-wrap footer__bottom container">
+          <div class="footer__columns-left p-m">
+            <p class="footer__link">
+              &#169; 2020 «Фото в дом» Все права защищены
+            </p>
+          </div>
+          <div class="footer__columns-right p-m">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#" target="_blank">
+                  Публичная оферта
+                </a>
+              </li>
+            </ul>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#" target="_blank">
+                  Политика конфиденциальности
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    <script src="js/libs/jquery-3.4.1.min.js"></script>
+    <script src="js/libs/jquery.maskedinput.min.js"></script>
+    <script src="js/libs/jquery.fancybox.min.js"></script>
+
+    <script src="js/libs/swiper.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+
+</html>

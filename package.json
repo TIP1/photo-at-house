@@ -1,0 +1,23 @@
+{
+  "name": "photo-in-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIP1/PHOTO-IN-HOUSE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIP1/PHOTO-IN-HOUSE/issues"
+  },
+  "homepage": "https://github.com/TIP1/PHOTO-IN-HOUSE#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2"
+  }
+}
